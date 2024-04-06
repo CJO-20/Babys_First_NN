@@ -66,21 +66,6 @@ A      B      Out
  For x0 = 1 and x1 = 1, the expected output is 1. Actual activation is: 0.906571
  */
 
-/*
- BASIC NN DESIGN
- 
- I: Input Neuron
- H: Hidden Neuron
- O: Output Neuron
- 
- [I]---[H]
-    \ /   \
-     *    [O]
-    / \   /
- [I]---[H]
- 
- 
- */
 struct basic_neural_network
 {
     const double learning_rate = 0.25;
